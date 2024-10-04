@@ -1,0 +1,38 @@
+
+.responsive-table-wrapper {
+    overflow-x: auto; 
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .p-datatable table {
+        min-width: 100%;
+    }
+
+    .p-datatable-thead > tr > th,
+    .p-datatable-tbody > tr > td {
+        font-size: 14px;
+        padding: 15px; 
+    }
+}
+
+.responsive-table-wrapper .p-datatable table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.responsive-table-wrapper .p-datatable-thead > tr > th,
+.responsive-table-wrapper .p-datatable-tbody > tr > td {
+    border: 1px solid #322625;  
+}
+
+.p-datatable-tbody > tr > td {
+    padding: 10px;
+    text-align: center;
+}
+
+.p-datatable-thead > tr > th {
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+}
